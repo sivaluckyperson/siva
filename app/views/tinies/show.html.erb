@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Url:</b>
+  <%= @tiny.url %>
+</p>
+
+<p>
+  <b>Tiny:</b>
+  <%= @tiny.tiny %>
+</p>
+
+
+<%= link_to 'Edit', edit_tiny_path(@tiny) %> |
+<%= link_to 'Back', tinies_path %>
